@@ -1,0 +1,121 @@
+
+
+
+.brand {
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: left;
+	width: 145%;
+	max-width: 150%;
+	-webkit-transition: all 1s;
+	.brand-label {
+		transition: all 0.2s ease-in-out;
+		svg {
+			position: relative;
+			left: -180%;
+			width: 245%;
+			margin-top: -20%;
+			pointer-events: none;
+			animation-name: rotate;
+			animation-duration: 15s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+			animation-play-state: running;
+			text {
+				font-family: "Inter", sans-serif;
+				font-size: 12px;
+				letter-spacing: 1.375px;
+				font-variation-settings: "wght" 650;
+				fill: #000000;
+				text-transform: uppercase;
+			}
+		}
+	}
+	img {
+		display: block;
+		border-radius: 50%;
+		width: 85%;
+		opacity: 80%;
+		left: 21%;
+		position: relative;
+	/* bottom: 3%; */
+	/* top: -3%; */
+	padding-bottom: 13%;
+}
+}
+
+.brand:hover {
+	transform: scale(1.1);
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(360deg);
+	}
+	to {
+		transform: rotate(0);
+	}
+}
+
+
+.seccionContacto {
+	.contacto{
+		text-decoration: none;
+		font-size: 20px;
+		margin-bottom: 30px;
+		padding-top: 20px;
+		font-family: 'Open Sans', sans-serif;
+		color: #000000;
+		font-weight: 100;
+	}
+}
+
+
+.merch{
+  /*background-color: #dedede;*/
+  grid-row: 2/3;
+  grid-column: 1/-1;
+  overflow: hidden;
+  position: relative;
+  height: 50%;
+  .heroBannerMerch{
+  	.animation-container{
+  		transform: matrix(1, 0, 0, 1, 0, 0); 
+  		opacity: 1; 
+  		left: -1500px; 
+  		top: 80%; 
+  		height: 41px; 
+  		z-index: 111; 
+  		animation-name: animation_88_1;
+  		animation-duration: 23.9s; 
+  		animation-delay: 0s; 
+  		animation-iteration-count: infinite; 
+  		animation-direction: alternate; 
+  		animation-fill-mode: none; 
+  		animation-play-state: running;
+  		position: absolute; 
+  		overflow: hidden;
+  		.rmwidget{
+  			overflow: hidden;
+  			left: 0px;
+  			top: 0px;
+  			width: 3771px;
+  			height: 41px;
+  			z-index: 111;
+  			.v2{
+  				-webkit-nbsp-mode:normal;
+  				-webkit-line-break:after-white-space; 
+  				white-space:pre-wrap; 
+  				column-count:auto;
+  				-webkit-column-count:auto !important;
+  				-moz-column-count:auto;column-gap:16px;
+  				-webkit-column-gap:16px !important;
+  				-moz-column-gap:16px;
+  				background:rgba(255,255,255, 0)
+  			}
+  		}
+
+  	}
+  }
+}
