@@ -2368,7 +2368,9 @@ html.has-scroll-smooth {
 
 
 
-.contenedor-nav{
-  position: relative;
-  z-index: 3;
-}
+  .contenedor-nav{
+    position: relative;
+    z-index: 3;
+  }
+
+ 
